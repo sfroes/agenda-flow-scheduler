@@ -6,6 +6,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BottomNavigation from "../navigation/BottomNavigation";
+import { cn } from "@/lib/utils"; // Add this import
 
 interface LayoutProps {
   children: ReactNode;
